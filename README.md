@@ -24,7 +24,7 @@ The script produces a video in which the front and back views of a T-shirt and a
 By changing the parameters in the script, different textures and garment classes can be rendered atop SMPL. 
 Example:
 
-`python demo.py --pose_id 2 --img_id 4 --low_type 'pants'`
+`python demo.py --pose_id 2 --img_id 4 --low_type pants`
 
 We provide five pairs of upper and lower clothing images to run our demo script. Please note that we do not own the copyrights of the clothing images. These are released merely for demonstration and should not be used for any other purpose.
 By excuting the script to download data, you automatically consent to the [license agreement](https://smpl.is.tue.mpg.de/bodylicense) of the SMPL body.
