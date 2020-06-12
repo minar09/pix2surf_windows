@@ -1,0 +1,13 @@
+.idea/
+data/
+assets/
+test_data/
+output/
+video/
+pretrained/
+*__pycache__/
+*.pyc
+*.pkl
+*.obj
+*.npy
+*.mp4

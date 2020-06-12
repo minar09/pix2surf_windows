@@ -1,0 +1,8 @@
+##python==3.6.9
+torch==1.0.1
+torchvision==0.2.1
+pillow==6.2.1
+numpy==1.14.2
+opencv-python
+tensorboardX==1.6
+gdown
