@@ -8,6 +8,7 @@ This repository contains code corresponding to the paper "Learning to Transfer T
 
 # Demo
 To run the demo you will need blender. This code has been tested with blender 2.79. Please download it from [here](https://download.blender.org/release/Blender2.79/). After installation, please add the blender directory to the environment variables path.
+Also, demo tested in python 3.6.9
 
 1) Clone/Download the repo.
 
