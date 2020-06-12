@@ -1,32 +1,22 @@
+## Disclaimer
+This is a modified version of the original repository [Pix2Surf](https://github.com/aymenmir1/pix2surf), for running the demo in windows OS. Please refer to the original repository for details.
+
+
 # Learning to Transfer Texture from Clothing Images to 3D Humans (CVPR 2020)
-
->[Learning to Transfer Texture from Clothing Images to 3D Humans](https://arxiv.org/abs/2003.02050)  
-[Aymen Mir](https://virtualhumans.mpi-inf.mpg.de/people/Mir.html) [Thiemo Alldieck](https://virtualhumans.mpi-inf.mpg.de/people/Alldieck.html), [Gerard Pons-Moll](https://virtualhumans.mpi-inf.mpg.de/people/pons-moll.html)  
-*Proceedings of IEEE Conference on Computer Vision and Pattern Recognition*
-
-![Teaser](./teaser_new.jpg)
-![Teaser_gif](./teaser_gif.gif)
-
 This repository contains code corresponding to the paper "Learning to Transfer Texture from Clothing Images to 3D Humans"
 
+
 # Demo
+To run the demo you will need blender. This code has been tested with blender 2.79. Please download it from [here](https://download.blender.org/release/Blender2.79/). After installation, please add the blender directory to the environment variables path.
 
-To run the demo you will need blender. This code has been tested with blender 2.79. Please download it from [here](https://download.blender.org/release/Blender2.79/). 
+1) Clone/Download the repo.
 
-Clone the repo:
+2) Install the requirements:
+`pip install -r requirements.txt`
 
-`git clone https://github.com/aymenmir1/pix2surf`
+3) Download pretrained weights and other assets from [here](https://drive.google.com/uc?id=1ULtdEXRrxH9_CtTrWensIbwybeWKz8Dj), and unzip inside the repository folder.
 
-Install the requirements using conda:
-
-`source scripts/install_conda.sh`
-
-Download pretrained weights and other assets:
-
-`source scripts/prepare_data.sh`
-
-Running the demo is as simple as:
-
+4) Running the demo is as simple as:
 `python demo.py` 
 
 The script produces a video in which the front and back views of a T-shirt and a pair of shorts are rendered atop a textured SMPL mesh. 
@@ -61,7 +51,7 @@ Once the data has been obtained, the mapping and segmentation networks can be tr
 `python train_map.py`
 
 # Citation
-If you find our code useful, please consider citing our paper 
+If you find the code useful, please consider citing the paper 
 
 ```
 @inproceedings{mir20pix2surf,
