@@ -1,5 +1,5 @@
 ## Disclaimer
-This is a modified version of the original repository [Pix2Surf](https://github.com/aymenmir1/pix2surf), for running the demo in windows OS. Please refer to the original repository for details.
+This is a modified version of the original repository [Pix2Surf](https://github.com/aymenmir1/pix2surf), for running the demo and visualization in windows OS. Please refer to the original repository for details.
 
 
 # Learning to Transfer Texture from Clothing Images to 3D Humans (CVPR 2020)
