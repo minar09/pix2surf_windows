@@ -4,6 +4,7 @@ assets/
 test_data/
 output/
 video/
+demo/
 pretrained/
 *__pycache__/
 *.pyc

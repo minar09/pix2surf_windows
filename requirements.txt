@@ -6,3 +6,6 @@ numpy==1.14.2
 opencv-python
 tensorboardX==1.6
 gdown
+trimesh
+pyrender
+chumpy
